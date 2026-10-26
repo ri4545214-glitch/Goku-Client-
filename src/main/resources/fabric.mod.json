@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gokumods",
+  "version": "${version}",
+  "name": "Goku Mods",
+  "description": "Goku Mods client. For single-player and private testing only.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.gokumods.GokuModsClient"]
+  },
+  "mixins": ["gokumods.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.10",
+    "java": ">=21"
+  }
+}
